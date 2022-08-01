@@ -1,13 +1,18 @@
 'use strict';
 
 //console.log('hello world!');
-
+function name (){
+  
 alert('Hello World- Wait a minute, i dont even know your name!');
 
 let name = prompt('What is your name Friend?');
 
 alert('Well good to meet you ' + name + '!');
+}
 
+function livesInTacoma (){
+
+}
 let livesInTacoma = prompt('Do i live in Tacoma?').toLowerCase();
 
 // eslint-disable-next-line no-unused-vars
@@ -27,6 +32,9 @@ if (livesInTacoma === 'yes' || livesInTacoma === 'y') {
   alert('You need to answer with a yes or a no');
 }
 
+function drivesACar (){
+
+}
 let drivesACar = prompt('Do i drive to Seattle for Class?').toLowerCase();
 // eslint-disable-next-line no-unused-vars
 let lowercasedrivesACar = drivesACar.toLowerCase();
@@ -42,6 +50,9 @@ if (drivesACar === 'yes' || drivesACar === 'y') {
   alert('You need to answer with a yes or a no');
 }
 
+function chef (){
+
+}
 let chef = prompt('Do i prefer Packing a meal as opposed to Eating out?');
 // eslint-disable-next-line no-unused-vars
 let lowercasedchef = chef.toLowerCase();
@@ -54,6 +65,9 @@ if (chef === 'no' || chef === 'n') {
   alert('Please anwser with a yes or a no.');
 }
 
+function web (){
+
+}
 let web = prompt('Is this my first coding Program?');
 // eslint-disable-next-line no-unused-vars
 let lowercasedweb = web.toLowerCase();
@@ -65,7 +79,9 @@ if (web === 'yes' || web === 'y') {
 } else {
   alert('Please answer with a yes or a no.');
 }
+function dream (){
 
+}
 let dream = prompt('Was becoming a Software Dev a dream of mine?');
 // eslint-disable-next-line no-unused-vars
 let lowercasedream = dream.toLowerCase();
